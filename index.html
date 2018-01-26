@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Formulaire</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+<div class="form-wrap">
+  <div class="form-header"><span class="is-active"></span><span></span><span></span></div>
+  <div class="form-bodies">
+    <div class="form-body form-body-step-1 is-showing">
+      <div class="title">Etape 1</div>
+      <div class="description">Merci de remplir votre nom et votre adresse mail</div>
+      <form>
+        <input type="text" placeholder="Nom"/>
+        <input type="email" placeholder="Email"/>
+        <div class="text-center">
+          <div class="button">ENVOYER</div>
+        </div>
+      </form>
+    </div>
+    <div class="form-body form-body-step-2">
+      <div class="title">Etape 2</div>
+      <div class="description"> Vous êtes ... </div>
+      <form>
+        <label>
+          <input type="radio" name="radio"/>Développeur Front-end? 
+        </label>
+        <label>
+          <input type="radio" name="radio"/>Développeur Back-end?
+        </label>
+        <div class="text-center">
+          <div class="button">SUIVANT</div>
+        </div>
+      </form>
+    </div>
+    <div class="form-body form-body-step-3">
+      <div class="title">Etape 3</div>
+      <div class="description">Merci pour vos réponses...</div>
+      <div class="text-center">
+        <div class="button">FIN</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-center">
+  <div class="rerun-button">RECOMMENCER</div>
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/myscripts.js"></script>    
+
+  </body>
+</html>
